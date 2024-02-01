@@ -17,6 +17,7 @@
 \usepackage{marginnote}
 %\usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage[capitalize]{cleveref}
 
 \usepackage{minted}
 %\usepackage[top=2.5cm, bottom=2.5cm, outer=5cm, inner=4cm, heightrounded, marginparwidth=3cm, marginparsep=0.5cm]{geometry}
@@ -94,6 +95,8 @@ You could think of a network packet analyzer as a measuring device used to exami
 
 The first goal of this lab is to introduce you to Wireshark and get you acquainted with it's interface. The following questions will demonstrate that you have been able to get Wireshark up and running, and have explored some of its capabilities.
 But first, install Wireshark and capture some data!
+
+\emph{But before delving into the lab session, take a look at the evaluation of this course detailed in \cref{sec:evaluation}. In this manner, you know how to proceed with the lab session and are aware of the timeline and expectations.}
 
 \section{Getting to know Wireshark}
 In this first Wireshark lab, you will get acquainted with Wireshark, and make some simple packet captures and observations.
@@ -433,14 +436,15 @@ Try to use the \texttt{report\_ports} function of Scapy to evaluate the results 
 
 
 \FloatBarrier
-\section{Evaluation}
+\section{Evaluation}\label{sec:evaluation}
 
-\textbf{Small intermediate tests.}
+\subsection{Small intermediate tests}
+
 The lab sessions will be evaluated by means of small tests at the beginning of several lab sessions. 
 This assignment contains several questions which can help the students to assess how well they have mastered the subjects. 
 Note that the student needs to be able to show the programming code when requested by the teaching assistant for evaluation.
 
-\textbf{Written report (Question~4).}
+\subsection{Written report (Question~4)}
 In addition to the tests, Question~4 has to be executed, reported, and uploaded to Toledo.
 It must be written in English. 
 \begin{itemize}
@@ -448,8 +452,30 @@ It must be written in English.
     \item Include your name, class and year.
 \end{itemize} 
 
+The following report structure is advised:
+\begin{itemize}
+    \item Title, name, year, date,\ldots
+    \item Table of contents
+    \item Introduction
+        \begin{itemize}
+            \item What?
+            \item Why?
+            \item Explain the difference between L2 and L3 communication.
+        \end{itemize}
+    \item Overview of protocols with their details (see \textit{Q\,4})
+    \item Conclusion(s)
+    \item References (referenced in the report)\\
+    More information regarding citing other sources can be found in this video: \url{vimeo.com/220916942}.
+\end{itemize}
+A \LaTeX\ template and tips-and-tricks can be found here: \url{github.com/dramco-edu/LaTex}. More general tips-and-tricks for writing reports can be accessed here: \url{dramco-edu.github.io/Thesis-Tips-and-Tricks/} or \url{https://github.com/DRAMCO/writing-scientific-papers-in-latex-tips-and-tricks}.
 
-\textbf{Timeline.}
+The report is expected to be structured and styled as described in:
+\begin{itemize}
+    \item Hoogenboom BJ, Manske RC. How to write a scientific article. Int J Sports Phys Ther. 2012 Oct;7(5):512-7. PMID: 23091783; PMCID: PMC3474301.
+    \item Kallestinova ED. How to write your first research paper. Yale J Biol Med. 2011 Sep;84(3):181-90. PMID: 21966034; PMCID: PMC3178846.
+\end{itemize}
+
+\subsection{Timeline}
 
 Deviations from the following timeline can occur and will be communicated during the lab sessions. 
 
